@@ -359,6 +359,6 @@ $mod_strings = array(
 'LBL_WELCOME' => 'Добро пожаловать' /*for 508 compliance fix*/,
 'LBL_LOGO' => 'Логотип' /*for 508 compliance fix*/,
 'LBL_ENABLE_HISTORY_CONTACTS_EMAILS' => 'Дублировать отображение писем контактов в субпанели "История" для следующих модулей',
-
+'LBL_HISTORY_SUBPANEL' => "Субпанель 'История'",
 );  
 

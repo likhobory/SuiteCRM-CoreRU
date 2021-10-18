@@ -59,4 +59,6 @@ $mod_strings = array(
   'LBL_CONTACT_NAME' => 'Контакт',
   'LBL_INTERNAL' => 'Внутреннее обновление',
   'LBL_AOP_CASE_ATTACHMENTS' => 'Вложения: ',
+  'LBL_AUTHOR' => 'Автор',
+  'LBL_SOURCE' => 'Источник'
 );

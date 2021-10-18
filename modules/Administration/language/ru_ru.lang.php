@@ -594,7 +594,7 @@ $mod_strings = array(
 'MSG_CONFIG_FILE_READY_FOR_REBUILD' => 'Файл config.php готов для перестройки.' ,
 'MSG_CONFIG_FILE_REBUILD_FAILED' => 'Файл config.php не перестроен.' ,
 'MSG_CONFIG_FILE_REBUILD_SUCCESS' => 'Файл config.php успешно перестроен.' ,
-'MSG_INCREASE_UPLOAD_MAX_FILESIZE' => 'Предупреждение: Ваша PHP-конфигурация должна быть изменена таким образом, чтобы была возможность загрузки файлов размером не менее 6МБ. Пожалуйста, исправьте значение переменной upload_max_filesize в файле php.ini находящемся в:' ,
+'MSG_INCREASE_UPLOAD_MAX_FILESIZE' => 'Предупреждение: Ваша PHP-конфигурация должна быть изменена таким образом, чтобы была возможность загрузки файлов размером не менее 6МБ. Пожалуйста, исправьте значение переменной upload_max_filesize в файле ' ,
 'MSG_MAKE_CONFIG_FILE_WRITABLE' => 'Пожалуйста, сделайте файл config.php доступным для записи и попробуйте ещё раз.' ,
 'MSG_REBUILD_EXTENSIONS' => 'Пожалуйста, перейдите по ссылке <a href="index.php?module=Administration&action=Upgrade">Восстановление</a> в панели администратора и кликните на ссылке "Перестройка расширений".' ,
 'MSG_REBUILD_RELATIONSHIPS' => 'Пожалуйста, перейдите по ссылке <a href="index.php?module=Administration&action=Upgrade">Восстановление</a> в панели администратора и кликните на ссылке "Перестройка связей".' ,
@@ -841,7 +841,8 @@ $mod_strings = array(
 'LBL_SUGGESTION_POPUP_FROM' => 'Варианты решений обращения, градиент, цвет 1:',
 'LBL_SUGGESTION_POPUP_TO' => 'Варианты решений обращения, градиент, цвет 2:',
 
-'LBL_SALESAGILITY_ADMIN' => 'Разное',
+'LBL_MODULE_ADMIN' => 'Настройка модулей',
+'LBL_MODULE_ADMIN_HEADER_DESC' => 'Детальная настройка различных модулей.',
 'LBL_AOP_ADMIN_MANAGE_AOP' => 'Настройки портала',
 'LBL_AOP_ENABLE_AOP' => 'Включить настройки портала',
 'LBL_AOP_ENABLE_PORTAL' => 'Включить внешний портал',
@@ -874,11 +875,6 @@ $mod_strings = array(
 'LBL_AOP_ADD_STATUS' => 'Добавить',
 'LBL_AOP_REMOVE_STATUS' => 'Удалить',
 
-'LBL_AOD_ADMIN_MANAGE_AOD' => 'Настройка полнотекстового поиска',
-'LBL_AOD_ENABLE' => 'Включить полнотекстовый поиск',
-'LBL_AOD_SETTINGS' => 'Настройка полнотекстового поиска',
-
-
 'LBL_AOS_ADMIN_CONTRACT_SETTINGS' => 'Параметры договоров',
 'LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER' => 'Уведомление об окончании действия за',
 'LBL_AOS_ADMIN_MANAGE_AOS' => 'Параметры модулей продаж',
@@ -893,7 +889,6 @@ $mod_strings = array(
 'LBL_AOS_PRODUCTS' => 'Товары', ///
 'LBL_AOS_DAYS' => 'дней',
 'LBL_CHANGE_SETTINGS' => 'Настройка параметров договоров, счетов, предложений',
-'LBL_CHANGE_SETTINGS_AOD' => 'Настройка параметров полнотекстового поиска',
 'LBL_CHANGE_SETTINGS_AOP' => 'Настройка параметров портала',
 
 'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Создание Групп пользователей',
@@ -976,18 +971,35 @@ $mod_strings = array(
 'LBL_SEARCH_ENGINE' => 'Поисковый движок',
 'LBL_SEARCH_ENGINE_HELP' => 'Выберите поисковый движок, используемый по умолчанию.',
 'LBL_SEARCH_ENGINE_TOOLTIP' => 'Выберите поисковый движок, который будет использоваться в глобальном поиске.',
+'LBL_SEARCH_GENERAL' => 'General', ////unused?
 
 'LBL_SEARCH_MODULES' => 'Выбор модулей',
 'LBL_SEARCH_MODULES_HELP' => 'Выбор модулей, в которых будет осуществляться поиск',
 
 // Search Engines Translations
-'LBL_LEGACY_SEARCH_ENGINES' => 'Стандартный поисковый движок',
 'LBL_SEARCH_WRAPPER_ENGINES' => 'Обновлённый поисковый движок',
 'LBL_BASIC_SEARCH_ENGINE' => 'Стандартный поиск',
-'LBL_BASIC_AND_AOD_ENGINE' => 'Стандартный поиск + полнотекстовый поиск',
 'LBL_ELASTIC_SEARCH_ENGINE' => 'Расширенный поиск с использованием Elasticsearch',
 'LBL_SIMPLE_SQL_SEARCH_ENGINE' => 'Стандартный поиск',
 
+// SearchWrapper Settings
+'LBL_PDF_HEADER' => 'Настройки PDF',
+'LBL_CHANGE_PDF_SETTINGS' => 'Изменение настроек PDF',
+'LBL_PDF_HEADER_DESC' => 'Управление настройками PDF',
+'LBL_PDF_OPTIONS' => 'PDF-движок',
+'LBL_PDF_OPTIONS_HELP' => 'Выберите используемый PDF-движок.',
+'LBL_PDF_INTERFACE' => 'PDF-интерфейс',
+
+// PDF Engines Translations
+'LBL_PDF_WRAPPER_ENGINES' => 'PDF',
+'LBL_MPDF_ENGINE' => 'MPDF',
+
 // Ajax Submit
 'LBL_AJAX_SUBMIT_FAIL' => 'В процессе сохранения настроек произошла ошибка.',
+
+'LBL_ADMIN_TOOLS_TITLE' => 'Инструменты администратора',
+'LBL_ADMIN_TOOLS_HEADER_DESC' => 'Восстановление, обновление и диагностика системы.',
+'LBL_WORKFLOW_MANAGER' => 'Управление Процессами',
+'LBL_WORKFLOW_MANAGER_DESC' => 'Создание, удаление, изменение Процессов',
+
 );

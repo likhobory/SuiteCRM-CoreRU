@@ -41,8 +41,6 @@ $mod_strings = array(
 'LBL_OOTB_PRUNE' => 'Очищать базу данных первого числа каждого месяца',
 'LBL_OOTB_TRACKER' => 'Очищать таблицы трекера',
 'LBL_OOTB_SUITEFEEDS' => 'Очищать ленту событий',
-'LBL_OOTB_LUCENE_INDEX' => 'Индексировать неиндексированные документы',
-'LBL_OOTB_OPTIMISE_INDEX' => 'Оптимизировать индекс полнотекстового поиска',
 'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Отправлять напоминания о мероприятиях по E-mail',
 'LBL_OOTB_CLEANUP_QUEUE' => 'Очищать очередь заданий',
 'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Удалять неиспользуемые файлы из системы',
@@ -143,8 +141,6 @@ $mod_strings = array(
 'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
 'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
 
-'LBL_AODOPTIMISEINDEX' => 'Оптимизировать индекс полнотекстового поиска',
-'LBL_AODINDEXUNINDEXED' => 'Индексировать неиндексированные документы',
 'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
 'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
 'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 

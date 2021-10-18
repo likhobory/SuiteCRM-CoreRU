@@ -29,6 +29,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
   *********************************************************************************/
  // Replaced by RAPIRA <--
 $mod_strings = array(
+'LBL_BASIC' => 'Основные данные', ////
 'LBL_BASIC_SEARCH' => 'Фильтр',
 'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр',
 'LBL_BASIC_TYPE' => 'Базовый поиск',
@@ -78,6 +79,7 @@ $mod_strings = array(
 'ERR_DB_EXISTS_PROCEED' => 'База данных с подобным именем уже существует. --<br>Вы можете нажать на кнопку "Назад" и указать другое имя базы данных, или же вы можете нажать на кнопку "Далее" и продолжить установку, но в этом случае <strong> все таблицы в этой базе данных будут удалены.</strong>',
 'ERR_DB_HOSTNAME' => 'Имя хоста не может быть пустым' ,
 'ERR_DB_INVALID' => 'Выбран неверный тип базы данных' ,
+'ERR_DB_LOGIN_FAILURE_SHORT' => 'Ошибка подключения к БД: Указанные сервер БД, логин и/или пароль пользователя БД неверны.',
 'ERR_DB_LOGIN_FAILURE' => 'Указанные сервер БД, логин и/или пароль пользователя БД неверны. Соединение не может быть установлено. Укажите правильные данные.' ,
 'ERR_DB_LOGIN_FAILURE_MYSQL' => 'Указанные сервер БД, логин и/или пароль пользователя БД неверны. Соединение не может быть установлено. Укажите правильные данные.',
 'ERR_DB_LOGIN_FAILURE_MSSQL' => 'Указанные сервер БД, логин и/или пароль пользователя БД неверны. Соединение не может быть установлено. Укажите правильные данные.' ,
@@ -173,6 +175,7 @@ $mod_strings = array(
 'LBL_CONFIRM_WILL' => '' ,
 'LBL_DBCONF_DB_DROP' => 'Удаление таблиц',
 'LBL_DBCONF_DB_NAME' => 'Название базы данных' ,
+'LBL_DBCONF_DB_PORT' => 'Порт базы данных',
 'LBL_DBCONF_DB_PASSWORD' => 'Пароль базы данных' ,
 'LBL_DBCONF_DB_PASSWORD2' => 'Повтор пароля базы данных' ,
 'LBL_DBCONF_DB_USER' => 'Имя пользователя базы данных' ,
@@ -182,9 +185,9 @@ $mod_strings = array(
 'LBL_DBCONF_COLLATION' => 'Сопоставление',
 'LBL_DBCONF_CHARSET' => 'Кодировка',
 'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Дополнительные параметры базы данных',
-'LBL_DBCONF_DEMO_DATA' => 'Заполнить базу данных демонстрационными данными?' ,
+'LBL_DBCONF_DEMO_DATA' => 'Заполнить базу данных демонстрационными данными' ,
 'LBL_DBCONF_DEMO_DATA_TITLE' => 'Демонстрация',
-'LBL_DBCONF_HOST_NAME' => 'Хост' ,
+'LBL_DBCONF_HOST_NAME' => 'Имя сервера' ,
 'LBL_DBCONF_HOST_INSTANCE' => 'Экземпляр хоста',
 
 'LBL_DBCONFIG_SECURITY' => 'В целях безопасности необходим пользователь с административными, эксклюзивными правами доступа к базе данных SuiteCRM. Этот пользователь может быть создан сейчас или же вы можете указать уже существующего пользователя.',
@@ -201,9 +204,10 @@ $mod_strings = array(
 'LBL_DISABLED_HELP_1' => 'За дополнительной информацией о процессе установки обращайтесь на сайт SuiteCRM<br>' ,
 'LBL_DISABLED_HELP_LNK' => 'https://community.suitecrm.com',
 'LBL_DISABLED_HELP_2' => 'Форумы поддержки' ,
+'LBL_APP_NOT_INSTALLED' => 'SuiteCRM не установлена. Для точки входа необходимо установленное приложение.',
 'LBL_DISABLED_TITLE_2' => 'Установка SuiteCRM приостановлена' ,
 'LBL_HELP' => 'Помощь' ,
-'LBL_INSTALL' => 'Установить',
+'LBL_INSTALL' => 'Установка системы',
 'LBL_INSTALL_TYPE_TITLE' => 'Параметры установки',
 'LBL_INSTALL_TYPE_SUBTITLE' => 'Выберите тип установки',
 'LBL_INSTALL_TYPE_TYPICAL' => 'Обычная установка',
@@ -221,6 +225,8 @@ $mod_strings = array(
 'LBL_LANG_SUCCESS' => 'Языковой пакет успешно загружен' ,
 'LBL_LANG_TITLE' => 'Языковой пакет' ,
 'LBL_LAUNCHING_SILENT_INSTALL' => 'Производится установка SuiteCRM. Это может занять некоторое время.',
+'LBL_SILENT_INSTALL_SUCCESS' => 'SuiteCRM успешно установлена.',
+'LBL_SILENT_INSTALL_FAILED' => 'SuiteCRM НЕ установлена.',
 'LBL_LANG_UPLOAD' => 'Загрузить языковой пакет' ,
 'LBL_LICENSE_ACCEPTANCE' => 'Лицензионное соглашение' ,
 'LBL_LICENSE_CHECKING' => 'Проверка совместимости',
@@ -229,12 +235,11 @@ $mod_strings = array(
 'LBL_LICENSE_CHECK_PASSED' => 'Проверка совместимости успешно пройдена',
 'LBL_CREATE_CACHE' => 'Подготовка к установке...',
 'LBL_LICENSE_REDIRECT' => 'Перенаправление через ',
-
 'LBL_LICENSE_I_ACCEPT' => 'Я принимаю лицензионное соглашение' ,
-
 'LBL_LICENSE_PRINTABLE' => 'Версия для печати' ,
 'LBL_PRINT_SUMM' => 'Печать',
 'LBL_LICENSE_TITLE_2' => 'Лицензия SuiteCRM' ,
+'LBL_LICENSE' => 'Лицензия',
 
 'LBL_LOCALE_NAME_FIRST' => 'Афиноген' ,
 'LBL_LOCALE_NAME_LAST' => 'Пупкин' ,
@@ -285,7 +290,7 @@ $mod_strings = array(
 
 'LBL_SITECFG_ADMIN_Name' => 'Имя администратора системы',
 'LBL_SITECFG_ADMIN_PASS_2' => 'Повторный ввод пароля администратора' ,
-'LBL_SITECFG_ADMIN_PASS' => 'Пароль <em>администратора</em>' ,
+'LBL_SITECFG_ADMIN_PASS' => 'Пароль администратора' ,
 'LBL_SITECFG_APP_ID' => 'ID приложения' ,
 'LBL_SITECFG_CUSTOM_ID_DIRECTIONS' => ' Перезапись сгенерированного ID приложения предотвращает доступ к новому экземпляру приложения из уже запущенного приложения. Если вы используете несколько копий SuiteCRM, то у них должен быть <u>идентичный</u> ID приложения.' ,
 'LBL_SITECFG_CUSTOM_ID' => 'Указать ваш личный ID приложения' ,
@@ -322,6 +327,7 @@ $mod_strings = array(
 
 'LBL_STEP' => 'Шаг' ,
 'LBL_TITLE_WELCOME' => 'Добро пожаловать в SuiteCRM ' ,
+'LBL_WELCOME' => 'Добро пожаловать в SuiteCRM',
 //welcome page variables
 'LBL_TITLE_ARE_YOU_READY' => 'Вы готовы к установке?',
 'REQUIRED_SYS_COMP' => 'Необходимые системные компоненты',
@@ -556,6 +562,10 @@ $contact_user_link_guid',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Имя сервера',
     'LBL_DBCONFIG_MSG2' => 'Укажите имя сервера, на котором расположена ваша база данных (localhost - если БД расположена на одном сервере с файлами системы. В целях улучшения производительности БД не рекомендуется использовать адрес 127.0.0.1).',
     'LBL_DBCONFIG_B_MSG1_LABEL' => '',
-    'LBL_DBCONFIG_B_MSG1' => 'Укажите логин и пароль администратора базы данных. Администратор должен иметь соответствующие права на создание и запись в базе данных SuiteCRM.'
+    'LBL_DBCONFIG_B_MSG1' => 'Укажите логин и пароль администратора базы данных. Администратор должен иметь соответствующие права на создание и запись в базе данных SuiteCRM.',
+	'LBL_SYS_CHECK_WARNING' => 'Игнорировать предупреждения при проверке системы',
+    'LBL_PROCEED' => 'ПРОДОЛЖИТЬ',
+    'LBL_CONFIG' => 'КОНФИГУРАЦИЯ',
+    'LBL_VALIDATION_ERRORS' => 'При проверке возникли ошибки, невозможно выполнить действие. '
 
 );

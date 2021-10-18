@@ -178,10 +178,6 @@ $mod_strings = array(
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты',
 'LBL_PROJECT_SUBPANEL_TITLE' => 'Проекты',
 'LNK_IMPORT_CONTACTS' => 'Импорт контактов',
-'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
-
-//For export labels ///
-
 
 // SNIP
 'LBL_USER_SYNC' => 'User Sync',
@@ -206,5 +202,9 @@ $mod_strings = array(
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_INVOICES' => 'Счета',
 'LBL_AOS_QUOTES' => 'Предложения',
-
+'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Контакты проекта',
+'LBL_LAST_MEETING' => 'В последний раз вы встречались:',
+'LBL_LAST_CALL' => 'В последний раз вы звонили:',
+'LBL_LAST_EMAIL' => 'В последний раз вы отправляли E-mail:',
+'LBL_NO_INTERACTION' => 'Вы еще не общались с этим Контактом.',
 );

@@ -48,7 +48,7 @@ $mod_strings = array(
 'LBL_ACCOUNT_ID' => 'ID контрагента' ,
 'LBL_CURRENCY_NAME' => 'Название валюты',
 'LBL_CURRENCY_SYMBOL' => 'Символ валюты',
-
+'LBL_DAYS_OPEN_FOR' => 'Сделка открыта', ////
 'UPDATE' => 'Сделка - валютное обновление' ,
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
 'LBL_AMOUNT' => 'Сумма сделки:' ,
@@ -98,4 +98,8 @@ $mod_strings = array(
 
 'LBL_AOS_CONTRACTS' => 'Договоры',
 'LBL_AOS_QUOTES' => 'Предложения',
+
+'LBL_SIZE_ANALYSIS' => 'Анализ объёма', ////
+'LBL_POSITION' => 'Позиция', ////
+'LBL_OUT_OF' => 'Из', ////
 );
