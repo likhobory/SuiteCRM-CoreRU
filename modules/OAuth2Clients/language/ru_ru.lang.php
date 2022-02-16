@@ -26,10 +26,6 @@
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
 
-if (!defined('sugarEntry') || !sugarEntry) {
-    die('Not A Valid Entry Point');
-}
-
 $mod_strings = array (
     'LBL_MODULE_NAME' => 'OAuth2-клиенты',
     'LBL_MODULE_TITLE' => 'OAuth2-клиенты',
