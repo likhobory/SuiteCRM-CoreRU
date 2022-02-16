@@ -261,7 +261,7 @@ $app_list_strings = array(
     'Net 30' => 'Net 30'    ,
   ),
 
-  'sales_stage_default_key' => 'Разведка' ,
+  'sales_stage_default_key' => 'Prospecting' ,
   'sales_stage_dom' =>
   array( 
      // Added by RAPIRA -->
@@ -820,7 +820,10 @@ $app_list_strings = array(
 		'leastBusy' => 'Наименее занятой'    ,
     ),
 	
-    
+    'dom_email_errors' => array(
+        1 => 'Вы можете выбирать не более одного пользователя при назначении записи.',
+        2 => 'Вы должны назначать только выбранные записи.',
+    ),
 	
     'dom_email_bool' => array(
 		'bool_true' => 'Да' ,
@@ -1961,7 +1964,7 @@ $app_strings = array(
     'NTC_DATE_FORMAT' => '(гггг-мм-дд)' ,
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Вы действительно хотите удалить выбранные(ую) записи(ь)?' ,
     'NTC_TEMPLATE_IS_USED' => 'Данный шаблон используется как минимум в одной рассылке. Вы действительно хотите его удалить?',
-    'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?\n',
+    'NTC_TEMPLATES_IS_USED' => 'Данные шаблоны используются как минимум в одной рассылке. Вы действительно хотите их удалить?' . PHP_EOL,
 	'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?' ,
     'NTC_DELETE_CONFIRMATION_NUM' => 'Вы действительно хотите удалить ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Вы действительно хотите обновить ',
@@ -2330,7 +2333,7 @@ $app_strings = array(
     'LBL_BULK_ACTION_MASS_UPDATE_NO_ACLS' => 'Недостаточно прав, сохранение данных запрещено',
     'LBL_UNEXPECTED_ERROR' => 'Неизвестная ошибка. Невозможно выполнить действие.',
     'LBL_RECORD_DELETE_SUCCESS' => 'Запись успешно удалена',
-	'LBL_ERROR_SAVING' => 'При удалении записи произошла ошибка',
+	'LBL_ERROR_SAVING' => 'При сохранении записи произошла ошибка',
     'LBL_SAVE_BUTTON_KEY' => 'a', ///
     'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
     'LBL_SAVE_BUTTON_TITLE' => 'Сохранить',
@@ -3363,8 +3366,8 @@ $app_list_strings['template_ddown_c_list'][''] = '';
 
 $app_list_strings['quote_stage_dom']['Draft'] = 'Черновик';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Согласование';
-$app_list_strings['quote_stage_dom']['Delivered'] = 'Поставлено';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'Ведётся';
+$app_list_strings['quote_stage_dom']['Delivered'] = 'Предоставлено';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'Приостановлено';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Подтверждено';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Принято и закрыто';
 $app_list_strings['quote_stage_dom']['Closed Lost'] = 'Закрыто с потерями';
