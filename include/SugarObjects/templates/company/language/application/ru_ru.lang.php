@@ -4,7 +4,6 @@ if !defined'sugarEntry' || !sugarEntry {
     die'Not A Valid Entry Point';
 }
 
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 /*********************************************************************************
 
 * This program is free software; you can redistribute it and/or modify it under
@@ -48,7 +47,7 @@ array(
 'Customer' => 'Клиент' ,
 'Integrator' => 'Интегратор' ,
 'Investor' => 'Инвестор' ,
-'Partner' => 'Партнер' ,
+'Partner' => 'Партнёр' ,
 'Press' => 'Пресса' ,
 'Prospect' => 'Адресат' ,
 'Reseller' => 'Реселлер' ,
