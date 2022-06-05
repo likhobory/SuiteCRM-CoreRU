@@ -410,6 +410,7 @@ $mod_strings = array(
 'LBL_ATTACHMENTS' => 'Добавить вложения',
 'ERR_MISSING_REQUIRED_FIELDS' => 'Пропущено обязательное поле',
 'LBL_SUITE_DOCUMENT' => 'Добавить документ',
+'LBL_UPLOAD_FILE' => 'Загрузить файл',
 'LBL_EMAIL_ATTACHMENT' => 'Вложение',
 'LBL_PROCESS_BOUNCED_EMAILS' => 'Обработка возвращаемых писем',
 'LBL_PROCESS_CAMPAIGN_EMAILS' => 'Обработка рассылаемых писем',
