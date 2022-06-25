@@ -78,7 +78,7 @@ $mod_strings = array(
 'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия' ,
 'LBL_HISTORY_SUBPANEL_TITLE' => 'История' ,
 
-'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
+'LBL_LEADS_SUBPANEL_TITLE' => 'Предварит. контакты' ,
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
 'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Документы',
 'LBL_PROJECTS_SUBPANEL_TITLE' => 'Проекты' ,

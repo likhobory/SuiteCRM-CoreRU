@@ -64,7 +64,7 @@ $mod_strings = array(
 'LNK_PROSPECT_LIST' => 'Адресаты' ,
 
 'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакты' ,
-'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
+'LBL_LEADS_SUBPANEL_TITLE' => 'Предварит. контакты' ,
 'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Адресаты' ,
 'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Контрагенты',
 'LBL_COPY_PREFIX' => 'Копия для' ,

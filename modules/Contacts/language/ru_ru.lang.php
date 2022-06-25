@@ -162,7 +162,7 @@ $mod_strings = array(
 'NTC_REMOVE_CONFIRMATION' => 'Вы уверены, что хотите удалить этот контакт из данного обращения?' ,
 
 
-'LBL_LEADS_SUBPANEL_TITLE' => 'Предварительные контакты' ,
+'LBL_LEADS_SUBPANEL_TITLE' => 'Предварит. контакты' ,
 'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Сделки' ,
 'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Документы',
 'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Копировать в основной адрес',
