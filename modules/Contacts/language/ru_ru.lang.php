@@ -210,5 +210,5 @@ $mod_strings = array(
 'LBL_LAST_MEETING' => 'В последний раз вы встречались:',
 'LBL_LAST_CALL' => 'В последний раз вы звонили:',
 'LBL_LAST_EMAIL' => 'В последний раз вы отправляли E-mail:',
-'LBL_NO_INTERACTION' => 'Вы еще не общались с этим Контактом.',
+'LBL_NO_INTERACTION' => 'Вы еще не общались с этим Контактом',
 );
