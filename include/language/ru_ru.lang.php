@@ -4163,6 +4163,8 @@ $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Использовать расшир
 $app_strings['LBL_USE_BASIC_SEARCH'] = 'Использовать стандартный поиск'; //// unused?
 $app_strings['LBL_NO_MODULE_SELECTED'] = 'Модуль не выбран';
 $app_strings['LBL_CLOSE_MENU'] = 'Закрыть меню';
+$app_strings['LOGIN_INCORRECT'] = 'Неверные учётные данные, попробуйте ещё раз.';
+$app_strings['LOGIN_TOO_MANY_FAILED'] = 'Слишком много неудачных попыток входа в систему, попробуйте войти позже.';
 
 // PDF Engines
 $app_strings['LBL_LEGACY_MPDF_ENGINE'] = 'Движок MPDF (устаревший)';

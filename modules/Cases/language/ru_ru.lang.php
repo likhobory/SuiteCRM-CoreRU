@@ -46,7 +46,6 @@ $mod_strings = array(
 'LBL_SUGGESTION_BOX_STATUS' => 'Статус',
 'LBL_SUGGESTION_BOX_TITLE' => 'Статья',
 'LBL_SUGGESTION_BOX_REL' => 'Актуальность',
-'LBL_TOTAL_CASES_FOR_THIS_ACCOUNT' => 'Всего Обращений у этого Контрагента:',
 
 'LBL_ACCOUNT_ID' => 'ID контрагента' ,
 'LBL_ACCOUNT_NAME' => 'Контрагент:' ,
@@ -124,8 +123,6 @@ $mod_strings = array(
 'LBL_SELECT_EXTERNAL_CASE_DOCUMENT' => 'Внешний файл',
 'LBL_CONTACT_CREATED_BY_NAME' => 'Создано',
 'LBL_CONTACT_CREATED_BY' => 'Создано',
-'LBL_CASE_UPDATE_FORM' => 'Добавить вложение',
-//Form for attachments on case updates
-'LBL_SINCE' => 'С: ', ////
-'LBL_OPEN_CASES' => 'Открытых Обращений', ////
+'LBL_CASE_UPDATE_FORM' => 'Добавить вложение', //Form for attachments on case updates
+'LBL_UNKNOWN_CONTACT' => 'Неизвестный Контакт',
 );
