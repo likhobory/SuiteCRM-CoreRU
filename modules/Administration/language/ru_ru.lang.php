@@ -267,6 +267,9 @@ $mod_strings = array(
 'LBL_LICENSE' => 'Лицензия',
 
 'LBL_LDAP_TITLE' => 'LDAP-аутентификация',
+'LBL_LDAP_LEGACY_WARNING' => 'ВНИМАНИЕ',
+'LBL_LDAP_LEGACY_WARNING_MORE' => 'Эти настройки LDAP используются только при аутентификации через API v4. Для входа в систему через LDAP необходимо прописать соответствующие параметры в файле env.local. <br>См. раздел
+<a href="https://docs.suitecrm.com/ru/8.x/admin/configuration/ldap-configuration/" target="_blank">Настройка LDAP</a> в руководстве администратора.',
 'LBL_LDAP_ENABLE' => 'Включить LDAP-аутентификацию',
 'LBL_LDAP_HELP_TXT' => 'При включении LDAP-аутентификации управление паролями осуществляется только через LDAP. Настройки системы управления паролями SuiteCRM не будут учитываться.',
 'LBL_LDAP_SERVER_HOSTNAME' => 'Сервер:',

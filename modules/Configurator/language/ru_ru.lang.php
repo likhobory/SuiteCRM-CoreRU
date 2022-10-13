@@ -118,6 +118,9 @@ $mod_strings = array(
 'SYSTEM_NAME_WIZARD' => 'Название:',
 'SYSTEM_NAME_HELP' => 'Данное название отображается в заголовке браузера.',
 'LBL_LDAP_TITLE' => 'LDAP-аутентификация',
+'LBL_LDAP_LEGACY_WARNING' => 'ВНИМАНИЕ',
+'LBL_LDAP_LEGACY_WARNING_MORE' => 'Эти настройки LDAP используются только при аутентификации через API v4. Для входа в систему через LDAP необходимо прописать соответствующие параметры в файле env.local. <br>См. раздел
+<a href="https://docs.suitecrm.com/ru/8.x/admin/configuration/ldap-configuration/" target="_blank">Настройка LDAP</a> в руководстве администратора.',
 'LBL_LDAP_ENABLE' => 'Включить LDAP',
 'LBL_LDAP_SERVER_HOSTNAME' => 'Сервер:',
 'LBL_LDAP_SERVER_PORT' => 'Порт:',
