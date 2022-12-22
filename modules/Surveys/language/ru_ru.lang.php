@@ -63,7 +63,7 @@ $mod_strings = array(
   'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_SURVEYS_SUBPANEL_TITLE' => 'Опросы',
-  'LBL_NEW_FORM_TITLE' => 'Новый опрос',
+  'LBL_NEW_FORM_TITLE' => 'Создать опрос',
   'LBL_STATUS' => 'Статус',
   'LBL_SURVEY_QUESTIONS_DISPLAY' => 'Вопросы',
   'LBL_SURVEY_URL_DISPLAY' => 'Ссылка на опрос',
@@ -84,4 +84,5 @@ $mod_strings = array(
   'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYQUESTIONS_TITLE' => 'Вопросы',
   'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYRESPONSES_TITLE' => 'Результаты опроса',
   'LBL_SHOW_RESPONSES' => 'Показать результаты',
+  'LNK_LIST_SURVEY_RESPONSES' => 'Показать результаты опроса',
 );

@@ -15,7 +15,7 @@ $manifest = array(
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'likhobory',
-    'version' => '8.2.1',
+    'version' => '8.2.2',
 	'published_date' => '2022/11/18',
       );
 
