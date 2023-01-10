@@ -35,7 +35,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
   'LBL_CONSKEY' => 'Ключ пользователя',
-  'LBL_CONSSECRET' => 'Секретный ключ',
+  'LBL_CONSSECRET' => 'Секрет пользователя',
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)-ID',
   'LBL_ASSIGNED_TO_NAME' => 'Пользователь',
   'LBL_ID' => 'ID',
