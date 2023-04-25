@@ -282,7 +282,8 @@ $mod_strings = array(
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Удалить напоминание',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Добавить ВСЕХ приглашённых',
     'LBL_REMINDERS_ADD_REMINDER' => 'Добавить напоминание',
-	
+    'LBL_SNOOZE_TIMER' => 'Отложить уведомление при необходимости',
+
 'LBL_REPORTS_TO_NAME' => 'Руководитель',
 'LBL_REPORTS_TO' => 'Руководитель',
 'LBL_REPORTS_TO_ID' => 'Руководитель (ID):',
@@ -308,6 +309,9 @@ $mod_strings = array(
 'LBL_STATE' => 'Область' ,
 'LBL_STATUS' => 'Статус пользователя' ,
 'LBL_SUBPANEL_TABS' => 'Группировать закладки субпанелей',
+'LBL_SET_SUBPANEL_PAGINATION_TYPE' => 'Отображать записи в субпанели',
+'LBL_SET_LISTVIEW_PAGINATION_TYPE' => 'Отображать записи в Форме списка',
+'LBL_SET_RECORD_MODAL_PAGINATION_TYPE' => 'Отображать записи во всплывающем окне',
 'LBL_SUBPANEL_TABS_DESCRIPTION' => 'В Форме просмотра группировать субпанели на закладках.',
 'LBL_SORT_MODULES' => 'Сортировать модули в алфавитном порядке',
 'LBL_SORT_MODULES_DESCRIPTION' => 'Отображать отсортированный перечень модулей в выпадающем меню.',

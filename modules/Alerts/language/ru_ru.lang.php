@@ -59,6 +59,7 @@ $mod_strings = array(
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
   'LBL_NEW_FORM_TITLE' => 'Создать уведомление',
   'LBL_IS_READ' => 'Прочитано',
+  'LBL_DATE_START' => 'Дата начала',
   
   'LBL_TYPE' => 'Тип',
 );

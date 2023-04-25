@@ -329,6 +329,7 @@ $mod_strings = array(
 'LBL_LEAD_FOOTER' => 'Нижний колонтитул формы:',
 'NTC_NO_LEGENDS' => 'Нет легенды',
 'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?',
+'NTC_SNOOZE_CONFIRMATION' => 'Вы действительно хотите отложить уведомление?',
 'LBL_DESCRIPTION_LEAD_FORM' => 'Описание формы:',
 'LBL_DESCRIPTION_TEXT_LEAD_FORM' => 'В результате отправки этой формы будет создан предварительный контакт, связанный с текущей маркетинговой кампанией.',
 'LBL_DOWNLOAD_TEXT_WEB_TO_LEAD_FORM' => 'Пожалуйста, просмотрите',
