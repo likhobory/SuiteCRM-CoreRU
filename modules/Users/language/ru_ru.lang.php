@@ -472,6 +472,7 @@ $mod_strings = array(
 'LBL_QUICK_TASK' => 'Создать задачу',
 		
 'LBL_ENABLE_NOTIFICATIONS' => 'Отображать всплывающие уведомления браузера',
+'LBL_DESKTOP_NOTIFICATIONS' => 'Всплывающие уведомления',
 'LBL_LIST_NONINHERITABLE' => 'Не наследуемая',
 'LBL_PRIMARY_GROUP' => 'Основная группа',
 'LBL_PASSWORD_MIS_MATCH' => 'не совпадают',
