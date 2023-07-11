@@ -31,7 +31,6 @@ if (!defined('sugarEntry') || !sugarEntry) {
   * Description : Defines the Russian language pack for the base application.
   *********************************************************************************/
 
-  $mod_strings = array(
 $mod_strings = array(
   'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
   'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
