@@ -4205,6 +4205,7 @@ $app_strings['LBL_CASE_UPDATES'] = 'Обновления Обращения';
 $app_strings['LBL_CASE_UPDATE_SUBMITTED'] = 'Обновление Обращения прошло успешно';
 $app_strings['LBL_SUMMARY_DEFAULT'] = "{{fields.name.value}}";
 $app_strings['LBL_SUMMARY_PERSON'] = "{{fields.salutation.value}} {{fields.last_name.value}} {{fields.first_name.value}}";
+$app_strings['LBL_SUMMARY_DOCUMENT'] = "{{fields.document_name.value}}";
 $app_strings['LBL_CREATE'] = 'Создать';
 $app_strings['LBL_CLEAR_FILTER'] = 'Очистить фильтр';
 $app_strings['LBL_QUICK_FILTERS'] = 'Quick Filters'; ///

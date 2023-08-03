@@ -57,4 +57,7 @@ $mod_strings = array (
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Добавить доступ через клиентские полномочия',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Добавить неявный доступ',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Добавить доступ через код подтверждения',
-);
+	
+    'LBL_ACCESS_TOKEN' => 'Токен доступа',
+    'LBL_REFRESH_TOKEN' => 'Токен обновления',
+    );
