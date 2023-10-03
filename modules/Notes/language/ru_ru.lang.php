@@ -96,4 +96,6 @@ $mod_strings = array(
 'LBL_DATE_MODIFIED' => 'Дата изменения',
 'LBL_DELETED' => 'Удалено',
 'LBL_FILE_CONTENTS' => 'Содержимое файла',
+'LBL_ASCENDING' => 'Восходящая',
+'LBL_DESCENDING' => 'Нисходящая',
 );
