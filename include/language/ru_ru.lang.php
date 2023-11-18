@@ -845,6 +845,10 @@ $app_list_strings = array(
     'dom_inbound_email_account_status' => [
         'Active' => 'Активна',
         'Inactive' => 'Не активна',
+    ], 
+    'dom_email_body_filtering_option' => [
+        'multi' => 'По нескольким словам',
+        'single' => 'По одному слову',
     ],
 	
     'dom_email_types' => array(
