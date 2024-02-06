@@ -51,5 +51,6 @@ $mod_strings = array(
 'LBL_MODIFY_CURRENT_FILTER' => 'Выбранный фильтр',
 
 'LBL_CREATED_BY' => 'Кем создано',
+'LBL_QUICK_FILTER' => 'Быстрый фильтр',
 
 );
