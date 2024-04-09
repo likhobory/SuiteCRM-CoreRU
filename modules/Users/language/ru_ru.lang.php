@@ -476,7 +476,7 @@ $mod_strings = array(
 'LBL_DESKTOP_NOTIFICATIONS' => 'Всплывающие уведомления',
 'LBL_LIST_NONINHERITABLE' => 'Не наследуемая',
 'LBL_PRIMARY_GROUP' => 'Основная группа',
-'LBL_PASSWORD_MIS_MATCH' => 'не совпадают',
+'LBL_PASSWORD_MIS_MATCH' => 'Пароли не совпадают',
 
 'LBL_EMAIL_INFORMATION' => 'E-MAIL',
 'LBL_FW' => 'FW:',
