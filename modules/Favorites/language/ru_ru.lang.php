@@ -61,5 +61,7 @@ $mod_strings = array(
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
 
   'LBL_NEW_FORM_TITLE' => 'Создать избранное',
+  'LBL_MARK_FAVORITE' => 'Добавить в избранное',
+  'LBL_UNMARK_FAVORITE' => 'Удалить из избранного',
   
 );

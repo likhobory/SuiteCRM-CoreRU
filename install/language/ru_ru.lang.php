@@ -16,7 +16,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 * details.
 *
 * You should have received a copy of the GNU Affero General Public License along with
-* this program; if not, see http://www.gnu.org/licenses or write to the Free
+* this program; if not, see https://www.gnu.org/licenses or write to the Free
 * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 * 02110-1301 USA.
 
@@ -58,7 +58,7 @@ $mod_strings = array(
 'ERR_CHECKSYS_NOT_WRITABLE' => 'Предупреждение: установлена защита от записи' ,
 'ERR_CHECKSYS_PHP_INVALID_VER' => 'Неверная версия PHP. Установлена версия: (' ,
 'ERR_CHECKSYS_IIS_INVALID_VER' => 'Ваша версия IIS не поддерживается. Вам необходимо установить версию, совместимую с текущей версией SuiteCRM. Обратитесь к разделу <b>Compatibility Matrix</b>, находящемуся в примечаниях к релизу, чтобы уточнить номер поддерживаемой версии IIS. Номер текущей версии: ',
-'ERR_CHECKSYS_FASTCGI' => 'Модуль FastCGI для исполнения PHP не установлен. Вам необходимо установить и настроить версию FastCGI, совместимую с текущей версией SuiteCRM. Обратитесь к разделу <b>Compatibility Matrix</b>, находящемуся в примечаниях к релизу, чтобы уточнить номер поддерживаемой версии FastCGI. Подробную информацию вы можете получить здесь: <a href="http://www.iis.net/php/" target="_blank">http://www.iis.net/php/</a> ',
+'ERR_CHECKSYS_FASTCGI' => 'Модуль FastCGI для исполнения PHP не установлен. Вам необходимо установить и настроить версию FastCGI, совместимую с текущей версией SuiteCRM. Обратитесь к разделу <b>Compatibility Matrix</b>, находящемуся в примечаниях к релизу, чтобы уточнить номер поддерживаемой версии FastCGI. Подробную информацию вы можете получить здесь: <a href="https://php.iis.net/" target="_blank">https://php.iis.net/</a> ',
 'ERR_CHECKSYS_FASTCGI_LOGGING' => 'Для оптимального использования IIS / FastCGI SAPI, установите параметр fastcgi.logging в файле php.ini равным 0.',
 'LBL_DB_UNAVAILABLE' => 'База данных недоступна',
 'LBL_CHECKSYS_DB_SUPPORT_NOT_AVAILABLE' => 'Поддержка базы данных не обнаружена. Убедитесь, что у вас есть необходимые драйвера для одного из следующих типов БД: MySQL или MS SQLServer. Вероятно, вам необходимо раскомментировать соответствующее расширение в файле php.ini, или перекомпилировать бинарный файл в соответствии с вашей версией PHP. Пожалуйста, обратитесь к руководству пользователя PHP за более подробной информацией о поддержке вашего типа БД.',
@@ -461,7 +461,7 @@ $mod_strings = array(
 'LBL_PATCH_READY' => 'Следующие обновления готовы к установке:',
 'LBL_SESSION_ERR_DESCRIPTION'=> "Часть важной информации SuiteCRM хранит в файлах сессий.
 <br><br>Для параметра <b>'session.save_path'</b> необходимо указать путь к папке сессий.<br>
-<br> Настройте <a target=_new href='http://us2.php.net/manual/ru/function.session-save-path.php'>session.save_path</a> в указанном файле php.ini.",
+<br> Настройте <a target=_new href='https://www.php.net/manual/ru/ref.session.php'>session.save_path</a> в указанном файле php.ini.",
 'LBL_SESSION_ERR_TITLE' => 'Ошибка в настройке сессий PHP',
 'LBL_SYSTEM_NAME' => 'Название системы',
 'LBL_COLLATION' => 'Параметры сортировки данных',
@@ -614,7 +614,7 @@ $contact_user_link_guid',
 	'LBL_START' => '',
 	'LBL_DB_CONN_ERR' => 'Ошибка базы данных',
 	'LBL_OLD_PHP' => 'Обнаружена устаревшая версия PHP !', 
-	'LBL_OLD_PHP_MSG' => 'Рекомендуемая версия PHP: %s <br />Хотя SuiteCRM и допускает использование минимально поддерживаемой версии PHP (%s), но делать этого не рекомендуется, поскольку со времени выхода данной версии было исправлено множество ошибок.<br />Вы используете PHP версии %s, которая более не поддерживается: <a href="http://php.net/eol.php">http://php.net/eol.php</a>.<br />Рекомендуется обновить установленную версию PHP, детали описаны на странице разработчика: <a href="http://php.net/migration70">http://php.net/migration70</a>. ',
+	'LBL_OLD_PHP_MSG' => 'Рекомендуемая версия PHP: %s <br />Минимально поддерживаемая версия PHP: %s<br />Вы используете PHP версии %s, которая более не поддерживается: <a href="https://php.net/eol.php">http://php.net/eol.php</a>.<br />Рекомендуется обновить установленную версию PHP, детали описаны на странице разработчика: <a href="https://www.php.net/manual/ru/appendices.php">https://www.php.net/manual/ru/appendices.php</a>. ',
 	'LBL_OLD_PHP_OK' => 'Я предупреждён о возможных рисках и хочу продолжить установку.',
 	
 	'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Пользователь',
