@@ -257,6 +257,15 @@ $mod_strings = array(
 
 'LBL_ELASTIC_SEARCH_DEFAULT' => 'Ничего не найдено. Попробуйте расширить критерии поиска.',
 
+// Portal Labels
+'LBL_AOP_DISABLED' => 'Настройки портала отключены, включите их в панели Администратора',
+'LBL_CREATE_PORTAL_USER_FAILED' => 'Ошибка создания пользователя портала.',
+'LBL_ENABLE_PORTAL_USER_FAILED' => 'Ошибка включения пользователя портала.',
+'LBL_DISABLE_PORTAL_USER_FAILED' => 'Ошибка отключения пользователя портала.',
+'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Пользователь портала успешно создан',
+'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Пользователь портала включён',
+'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Пользователь портала отключён',
+
 'LNK_TASK_VIEW' => 'Просмотр задачи',
 
 );
