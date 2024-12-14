@@ -513,12 +513,12 @@ $contact_user_link_guid',
 ),
 
 'two_factor_auth_email' => array(
-	'subject' => 'SuiteCRM - код двухфакторной аутентификации',
+	'subject' => 'SuiteCRM - код двухэтапной аутентификации',
 	'type' => 'system',
-	'description' => "Данный шаблон используется при отправке пользователю письма, содержащего код для двухфакторной аутентификации.",
+	'description' => "Данный шаблон используется при отправке пользователю письма, содержащего код для двухэтапной аутентификации.",
 	'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Код подтверждения: <b>$code</b>.</p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
 	'txt_body' =>
-		'Код двухфакторной аутентификации: $code.',
+		'Код двухэтапной аутентификации: $code.',
 	'name' => 'Two Factor Authentication email',
 ),
 

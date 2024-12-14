@@ -146,6 +146,6 @@ $mod_strings = array(
 'LBL_SECURITYGROUPS' => 'Группы пользователей',
 'LBL_PROSPECT_LIST' => 'Список адресатов',
 
-'LBL_FACTOR_AUTH_INTERFACE' => 'Интерфейс двухфакторной аутентификации:',
+'LBL_FACTOR_AUTH_INTERFACE' => 'Интерфейс двухэтапной аутентификации:',
 'LBL_EDITOR_TYPE' => 'Редактор',
 );

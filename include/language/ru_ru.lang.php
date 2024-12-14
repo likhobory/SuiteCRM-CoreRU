@@ -2416,6 +2416,7 @@ $app_strings = array(
     'LBL_DUPLICATE_BUTTON_KEY' => 'u', ///
     'LBL_DUPLICATE_BUTTON_LABEL' => 'Дублировать',
     'LBL_DUPLICATE_BUTTON_TITLE' => 'Дублировать',
+	'LBL_DISABLE_USER_2FA' => 'Отключить двухэтапную аутентификацию пользователей',
     'LBL_DELETE_BUTTON_KEY' => 'd', ///
     'LBL_DELETE_BUTTON_LABEL' => 'Удалить',
     'LBL_DELETE_BUTTON_TITLE' => 'Удалить',
@@ -2530,7 +2531,35 @@ $app_strings = array(
     'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'Скрытые колонки',
     'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Закрыть',
     'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Сохранить',
-    'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Настройка колонок'
+    'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Настройка колонок',
+	
+	// Two-Factor Authentication
+    'LBL_ENTER_AUTH_APP_2FA_CODE' => 'Введите код подтверждения из приложения-аутентификатора',
+    'LBL_ENABLE_2FA_LABEL' => 'Включить двухэтапную аутентификацию',
+    'LBL_BACKUP_CODES' => 'Коды восстановления/резервные коды',
+    'LBL_BACKUP_CODES_INFO' => 'Резервные коды — это одноразовые коды доступа, которые можно использовать, когда вы не можете выполнить проверку через приложение-аутентификатор.',
+    'LBL_BACKUP_CODES_WARN' => ' ВНИМАНИЕ: эти коды генерируются только один раз. Скопируйте их и сохраните в надежном месте, так как они больше не будут отображаться.',
+    'LBL_PROBLEMS_GENERATING_CODE' => 'Проблемы с генерацией кода?',
+    'LBL_BACKUP_CODES_FALLBACK_INSTRUCTIONS' => 'Используйте один из резервных кодов (код становится недействительным после  его однократного использования)',
+    'LBL_OTP_SETUP' => 'Используйте аутентификатор OTP (одноразовый пароль) на мобильном телефоне или компьютере, чтобы включить двухэтапную аутентификацию',
+    'LBL_QR_CODE_HELP' => 'Если вы ещё этого не сделали, загрузите приложение-аутентификатор (например, FreeOTP или Google Authenticator). Используйте загруженное приложение для сканирования QR-кода.',
+    'LBL_2FA_LOGIN_CANCEL' => 'Двухэтапная аутентификация отменена',
+
+    'LBL_FACTOR_AUTH_DISABLE' => 'Двухэтапная аутентификация отключена',
+    'LBL_FACTOR_AUTH_SUCCESS' => 'Двухэтапная аутентификация прошла успешно',
+    'LBL_FACTOR_AUTH_FAIL' => "Двухэтапная аутентификация не удалась. Попробуйте еще раз.",
+
+    'LBL_VERIFY_2FA' => 'Проверить код',
+    'LBL_TWO_FACTOR_AUTH' => 'Двухэтапная аутентификация',
+    'LBL_TWO_FACTOR_AUTH_APP_METHOD' => 'Приложение для аутентификации',
+    'LBL_TWO_FACTOR_AUTH_APP_METHOD_DESCRIPTION' => 'Используйте приложение для аутентификации, чтобы генерировать коды двухфакторной аутентификации при появлении соответствующего запроса',
+    'LBL_ENABLE' => 'Включить',
+    'LBL_ENABLED' => 'Включена',
+    'LBL_DISABLE' => 'Отключить',
+    'LBL_CANCEL' => 'Отмена',
+    'LBL_GENERATED' => 'Сгенерировано',
+    'LBL_REGENERATE_CODES' => 'Сгенерировать повторно',
+    'LBL_REGENERATED_BACKUP_CODES' => 'Повторно сгенерированные резервные коды'
 	
 );
 
@@ -4159,7 +4188,7 @@ $app_strings['LBL_AVERAGE_CLOSED_WON_PER_YEAR'] = 'Стоимость закры
 $app_strings['LBL_OPPORTUNITIES_TOTAL'] = 'Общая стоимость сделок';
 $app_strings['LBL_CASE_TOTAL_DAYS_OPEN'] = 'Открыто в течение';
 $app_strings['LBL_DAYS_OPEN'] = 'Открыто дней';
-$app_strings['LBL_DAYS_IN_SALE_STAGE'] = 'Сделка находится на этой стадии продаж в течение';
+$app_strings['LBL_DAYS_IN_SALE_STAGE'] = 'дн. сделка находится на этой стадии продаж';
 $app_strings['LBL_STAT_DAYS'] = 'дн.';
 $app_strings['LBL_CLOSED_PER_YEAR'] = 'Закрыто за год';
 $app_strings['LBL_WAS_OPEN'] = 'Это Обращение было открыто в течение';
@@ -4300,3 +4329,4 @@ $app_strings['LBL_NEW_NOTIFICATION'] = "Новых уведомлений: {{con
 $app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'Начало: {{fields.date_start.value}}';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'Уведомлено: {{fields.snooze.value}}';
 $app_strings['LBL_QUICK_ACTIONS'] = 'Быстрые действия';
+$app_strings['LBL_RELATIONSHIPS'] = 'Связи';
