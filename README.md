@@ -1,35 +1,14 @@
-Russian RAPIRA language pack and manual for SuiteCRM
+Russian RAPIRA language pack and manual for SuiteCRM 8
 =========================================
 
-+ Здесь находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] (форка безвременно почившего [SugarCRM CE][sugar]), с учётом последних дополнений и исправлений
-+ Обновление языковых файлов проще всего сделать через установку языкового пакета ([ссылка на последний актуальный перевод для SuiteCRM 7.11][langpack]); процесс установки/обновления пакета русификации SuiteCRM описан ниже
+Перевод для SuiteCRM 7.x находится [здесь][man7-ru].
+
+------------------------------------------------
+
++ В этом репозитории находится самая актуальная версия языковых файлов для [SuiteCRM][suitecrm] (форка безвременно почившего [SugarCRM CE][sugar]), с учётом последних дополнений и исправлений
++ Обновление языковых файлов проще всего сделать через установку языкового пакета ([ссылка на последний актуальный перевод для SuiteCRM 8.8][langpack]); процесс установки/обновления пакета русификации SuiteCRM описан ниже
 + Перевод Руководства пользователя и администратора SuiteCRM осуществляется [здесь][man-adoc]
 + Обсуждение русификации интерфейса и перевода документации по SuiteCRM доступно на [официальном форуме][forum]
-
-------------------------------------------------
-
-**Обратите внимание: в версии 7.10.10 и последующих используется значительно обновлённый языковой пакет. 
-Если вы используете предыдущие версии SuiteCRM - загружайте [соответствующие](https://github.com/likhobory/SuiteCRM7RU/releases) языковые пакеты.**
-
-------------------------------------------------
-
-<b>Что нового в SuiteCRM 7.11</b>    (полная история изменений содержится в файле [HISTORY.TXT][history])
-
-Добавлена возможность настройки OAuth2-ключа в файле конфигурации.  
-Отображаемые телефонные номера теперь кликабельны, что делает возможным набор номера с использованием соответствующего приложения или расширения браузера.  
-Добавлена возможность выборочного запрета настройки колонок Формы списка.  
-В мастере установки SuiteCRM добавлены дополнительные параметры базы данных: выбор сопоставления (utf8_general_ci / utf8mb4_general_ci) и кодировки (utf8 / utf8mb4).  
-Добавлена возможность выполнения некоторых команд восстановления системы из командной строки.  
-Алгоритм хеширования паролей заменён на более [надёжный](https://github.com/salesagility/SuiteCRM/pull/7439).  
-Добавлен новый тип поля 'WYSIWYG', позволяющий использовать встроенный HTML-редактор в любом модуле системы.  
-Добавлена возможность обновления системы из командной строки (т.н. Silent Upgrade).  
-Добавлена возможность синхронизации Встреч с календарём Google.  
-Расширены возможности поиска данных в системе за счёт интеграции с Elasticsearch версии 5.6.  
-Изменения в модуле ПРОЦЕССЫ:  
-	- Добавлен новый функционал в действия: копирование электронных адресов из контролируемого модуля  
-Добавлена возможность отображать функционал указанной субпанели в виде отдельных кнопок.
-
-Ссылки на описание нововведений доступны на [официальном форуме](https://suitecrm.com/suitecrm/forum/suitecrm-forum-russian-general-discussion/17973-suitecrm#60692).
 
 ------------------------------------------------
 
@@ -46,7 +25,7 @@ Russian RAPIRA language pack and manual for SuiteCRM
 7. Выходим из системы (Logout) и на странице ввода логина/пароля выбираем необходимый язык интерфейса системы.
 8. Вновь входим в систему.
 
-Установленный язык можно указать в качестве языка по умолчанию. Для этого в панели администрирования в подразделе <b>Региональные настройки</b> выберите соответствующий языковой пакет (Admin->Locale Settings->Default Language).
+Установленный язык можно указать в качестве языка системы по умолчанию. Также можно установить язык по умолчанию для конкретного пользователя. Более детально вопрос рассматривается в [этом][default-language] разделе руководства.
 
 ------------------------------------------------
 
@@ -58,14 +37,16 @@ Russian RAPIRA language pack and manual for SuiteCRM
 [Описание пользовательского интерфейса][ui], знакомящий с основными настройками системы. В описании присутствует масса перекрёстных ссылок, позволяющих быстро перейти к подробному описанию рассматриваемого функционала.
 
             
-[langpack]: https://github.com/likhobory/SuiteCRM7RU/blob/ver.7.11/rapira-suite_pack_russian.zip?raw=true
+[langpack]: https://github.com/likhobory/SuiteCRM-CoreRU/blob/8.8/rapira-suite_pack_russian.zip?raw=true
 [man-adoc]: https://github.com/likhobory/SuiteDocs/blob/master/README.ru.adoc
-[man-ru]: https://docs.suitecrm.com/ru
-[getting-started]: https://docs.suitecrm.com/ru/user/introduction/getting-started
-[ui]: https://docs.suitecrm.com/ru/user/introduction/user-interface
+[man-ru]:  https://russian-rapira-suitecrm-docs.netlify.app/ru
+[man7-ru]: https://github.com/likhobory/SuiteCRM7RU 
+[getting-started]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/getting-started
+[ui]: https://russian-rapira-suitecrm-docs.netlify.app/ru/user/introduction/user-interface
+[default-language]: https://russian-rapira-suitecrm-docs.netlify.app/ru/8.x/admin/installation-guide/languages/install-a-new-language/#_установка_языкового_пакета
 
-[suitecrm]: https://github.com/salesagility/SuiteCRM
+[suitecrm]: https://github.com/salesagility/SuiteCRM-Core
 [forum]: https://community.suitecrm.com/t/topic/11657
 [sugar]: https://ru.wikipedia.org/wiki/SugarCRM
-[history]: https://github.com/likhobory/SuiteCRM7RU/blob/master/HISTORY.TXT
+
 
