@@ -2,7 +2,7 @@
 /******************************************
  * Русификация языковых файлов SuiteCRM.
  * Последние обновления доступны по адресу:
- * https://github.com/likhobory/SuiteCRM7RU
+ * https://github.com/likhobory/SuiteCRM-CoreRU
  * @author likhobory <likhobory@mail.ru>
  ******************************************/
 $manifest = array( 
@@ -15,8 +15,8 @@ $manifest = array(
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'likhobory',
-    'version' => '8.10.1',
-	'published_date' => '2026/06/01',
+    'version' => '8.10.2',
+	'published_date' => '2026/08/04',
       );
 
 $installdefs = array(
