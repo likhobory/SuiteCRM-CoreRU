@@ -149,7 +149,7 @@ $mod_strings = array(
     'LBL_CLEANJOBQUEUE' => 'Очищать очередь заданий',
     'LBL_REMOVEDOCUMENTSFROMFS' => 'Удалять неиспользуемые файлы из системы',
 
-    'LBL_POLLMONITOREDINBOXESAOP' => 'Портал - проверять почтовые ящики для входящей почты',
+    'LBL_POLLMONITOREDINBOXESAOP' => 'Проверять почтовые ящики для входящей почты',
     'LBL_AORRUNSCHEDULEDREPORTS' => 'Создавать отчёты по расписанию',
     'LBL_PROCESSAOW_WORKFLOW' => 'Выполнять настроенные процессы', 
 
