@@ -4081,13 +4081,13 @@ $app_strings['MSG_BROWSER_NOTIFICATIONS_ENABLED'] = 'Уведомления ВК
 $app_strings['MSG_BROWSER_NOTIFICATIONS_DISABLED'] = 'Уведомления ОТКЛЮЧЕНЫ для данного браузера. Используйте настройки браузера для их включения.';
 $app_strings['MSG_BROWSER_NOTIFICATIONS_UNSUPPORTED'] = 'Данный браузер не поддерживает всплывающие уведомления.';
 
-$app_strings['LBL_THERE_WAS_AN_ERR'] = 'There was an error: ';
-$app_strings['LBL_CLICK_HERE'] = 'Click here';
-$app_strings['LBL_TO_CONTINUE'] = ' to continue.';
-$app_strings['LBL_OPT_OUT'] = 'Opt Out';
-$app_strings['LBL_INVALID_EMAIL'] = 'Invalid';
-$app_strings['LBL_PRIMARY'] = 'Primary';
-$app_strings['LBL_EMAIL_ADDRESS'] = 'Email Address';
+$app_strings['LBL_THERE_WAS_AN_ERR'] = 'Произошла ошибка: ';
+$app_strings['LBL_CLICK_HERE'] = 'Нажмите здесь';
+$app_strings['LBL_TO_CONTINUE'] = ' для продолжения.';
+$app_strings['LBL_OPT_OUT'] = 'Не писать';
+$app_strings['LBL_INVALID_EMAIL'] = 'Неверный адрес';
+$app_strings['LBL_PRIMARY'] = 'Основной';
+$app_strings['LBL_EMAIL_ADDRESS'] = 'Адрес E-mail';
 
 $app_strings['IMAP_HANDLER_ERROR'] = 'ОШИБКА: {error}; использован ключ: "{key}".';
 $app_strings['IMAP_HANDLER_SUCCESS'] = 'OK: тестовые параметры изменены на "{key}".';
